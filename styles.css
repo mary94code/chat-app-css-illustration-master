@@ -211,3 +211,8 @@ button {
         margin-top: 40px;
     }
 }
+@media all and (min-width: 375px){
+    .container{
+        width: 70%;
+    }
+}
