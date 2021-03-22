@@ -216,4 +216,11 @@ button {
         width: 70%;
         margin: 0 auto;
     }
+    .container-1{
+        margin: 0 auto;
+    }
+    .container-2{
+      text-align: center;
+      margin: 0 auto;
+    }
 }
