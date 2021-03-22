@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(270, 20%, 96%));
+}
+
+.container {
+    display: flex;
+
+}
+
+.container-1 {
+    width: 380px;
+    height: 780px;
+    margin-right: 150px;
+    border-radius: 40px;
+    border: 15px solid white;
+    box-shadow: 3px 3px 20px 3px grey;
+    font-size: 13px;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.container-2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-1 {
+    display: flex;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    height: 80px;
+    padding: 20px 20px;
+    color: white;
+    border-radius: 30px 30px 5px 5px;
+}
+
+.part-2 {
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.part-4 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* Images*/
+.samuel {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.puppy {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.dog-pics {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+/* headers, sub-classes etc */
+h3 {
+    font-weight: 400;
+    font-size: 15px
+}
+
+.avalability {
+    padding-top: 3px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.user-photo {
+    margin-right: 20px;
+}
+
+h1 {
+    color: hsl(271, 36%, 24%);
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.info {
+    line-height: 1.5;
+    color: hsl(270, 7%, 64%);
+}
+
+/* Chats */
+.chat-1,
+.chat-2,
+.chat-5 {
+    background-color: hsl(206, 6%, 79%);
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 15px 15px 15px 5px;
+    margin: 10px 5px;
+    color: hsl(276, 55%, 52%);
+
+}
+
+.chat-3,
+.chat-4 {
+    background-color: white;
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 15px 15px 5px 15px;
+    margin-top: 10px;
+    margin-left: 125px;
+    margin-bottom: 30px;
+    color: hsl(271, 15%, 43%);
+    box-shadow: 1px 1px 10px grey;
+}
+
+.chat-4 {
+    width: 40%;
+    margin-left: 195px;
+    margin-top: -15px;
+}
+
+.chat-6,
+.chat-7 {
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 70%;
+    height: 50px;
+    margin: 5px 5px;
+    border-radius: 15px 15px 15px 5px;
+    padding: 15px 45px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 18px;
+    right: 60px;
+}
+
+.last-chat {
+    display: flex;
+}
+
+/* form and button */
+input {
+    width: 95%;
+    padding: 20px 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: hsl(206, 6%, 79%);
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+button {
+    background-color: hsl(271, 36%, 24%);
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -50px;
+    border: none;
+    left: 290px;
+    cursor: pointer;
+    outline: none;
+}
+
+@media all and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    .container-1{
+        margin: 0 auto;
+    }
+    .container-2{
+    text-align: center;
+    }
+    .info {
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-top: 40px;
+    }
+}
